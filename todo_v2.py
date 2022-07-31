@@ -29,7 +29,7 @@ def write_rows(filename, file_contents):
 
 
 if __name__ == '__main__':
-    filename = 'todo3.csv'
+    filename = 'todo2.csv'
     user_inputs = get_user_inputs('What is your todo?')
     run(filename, user_inputs, todos_to_csv, write_rows)
 
